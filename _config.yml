@@ -85,6 +85,6 @@ exclude_generator:
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
-  repository: https://github.com/chenyoufu/chenyoufu.github.io.git
+  repository: git@github.com:chenyoufu/chenyoufu.github.io.git
   type: github
   branch: master
