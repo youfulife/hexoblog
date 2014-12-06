@@ -1,11 +1,15 @@
-menu:
-  Home: /
-  Archives: /archives
+﻿menu:
+  首页: /
+  存档: /archives
+  关于: /about
 
 widgets:
 - search
 - category
-- tag
+- tagcloud
+- weibo
+- blogroll
+
 
 excerpt_link: Read More
 
