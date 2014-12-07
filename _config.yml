@@ -82,6 +82,11 @@ disqus_shortname:
 theme: light
 exclude_generator:
 
+plugins:
+- hexo-generator-feed
+- hexo-generator-sitemap
+
+
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
