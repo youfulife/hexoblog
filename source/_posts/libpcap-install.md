@@ -1,7 +1,7 @@
-﻿title: libpcap install
+﻿title: libpcap安装
 date: 2014-12-08 17:56:37
 tags: libpcap
-categories: linux
+categories: libpcap
 ---
 
 CentOS 6.4 默认自带的是libpcap-1.4.0，虽然截止到目前主要是一些编译和系统支持的升级，但是测试性能还是安装最新版本libpcap较为稳妥
@@ -14,6 +14,8 @@ cd libpcap-1.5.3
 make
 sudo make install
 ```
+
+<!-- more -->
 安装完成后动态库和静态库默认安装在/usr/local/lib/目录下，如下：
 ``` bash
 Apr 21 14:00 libpcap.a
