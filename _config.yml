@@ -90,6 +90,7 @@ plugins:
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
-  repository: git@github.com:chenyoufu/chenyoufu.github.io.git
-  type: github
-  branch: master
+  type: git
+  repo: 
+    github: git@github.com:chenyoufu/chenyoufu.github.io.git,master
+    gitcafe: git@gitcafe.com:chenyoufu/chenyoufu.git,gitcafe-pages
