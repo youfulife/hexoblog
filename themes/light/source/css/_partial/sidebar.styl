@@ -1,4 +1,4 @@
-#sidebar
+﻿#sidebar
   width 270px
   line-height 1.8em
   @media screen and (max-width: 900px)
@@ -68,3 +68,36 @@
     a
       margin-right 10px
       display inline-block
+
+.archiveslist
+    text-align justify
+    line-height 1.6
+
+    margin-top 15px
+
+    ul, ol, dl
+      margin-left 20px
+      ul, ol, dl
+        margin-top 0
+
+    h1, h2
+      font-weight normal
+      border-bottom 1px solid color-border
+      padding-bottom 10px
+      margin-top 20px
+
+    h3, h4, h5, h6
+      font-weight normal
+    li 
+    font-size 0.8em
+    line-height 2em
+    a
+      padding 0.5em
+      &:hover
+        color color-theme
+        transition color .25s
+  .archive-list-count
+    &:before
+      content "  ("
+    &:after
+      content ")"	  

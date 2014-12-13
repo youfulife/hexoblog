@@ -1,4 +1,4 @@
-categories: 分类
+﻿categories: 分类
 search: 搜索
 tags: 标签
 tagcloud: 标签云
@@ -10,3 +10,4 @@ archive_a: 归档
 archive_b: 归档：%s
 page: 第 %d 页
 recent_posts: 最新文章
+archive: 归档

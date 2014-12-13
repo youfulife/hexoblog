@@ -7,8 +7,11 @@
 widgets:
 - search
 - category
+- archive
 - tagcloud
 - recent_posts
+
+
 #- blogroll
 
 
