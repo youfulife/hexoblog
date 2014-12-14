@@ -1,6 +1,6 @@
-title: dpdk start
+title: dpdk编译安装
 date: 2014-12-07 22:20:37
-tags: driver
+tags: dpdk
 categories: dpdk
 ---
 dpdk版本：dpdk-1.7.0
