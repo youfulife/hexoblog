@@ -10,9 +10,8 @@ widgets:
 - archive
 - tagcloud
 - recent_posts
-
-
-#- blogroll
+- blogroll
+- weibo
 
 
 excerpt_link: Read More
