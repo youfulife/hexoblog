@@ -11,6 +11,8 @@ widgets:
 - tagcloud
 - recent_posts
 - blogroll
+- recent_comments
+- recent_visitors
 - weibo
 
 
@@ -31,7 +33,7 @@ google_analytics:
 rss: /atom.xml
 
 # Duoshuo
-duoshuo_shortname: 
+duoshuo: youfuxyz 
 
 # Baidu share
 baidushare: true
