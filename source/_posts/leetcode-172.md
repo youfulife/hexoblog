@@ -10,6 +10,8 @@ categories: leetcode
 	Note: Your solution should be in logarithmic time complexity.
 ![](http://7sbqk1.com1.z0.glb.clouddn.com/youfu_blog_QQ截图20141230230957.png)
 
+<!-- more -->
+
 第一种方法，先算出n的阶乘，然后通过对10循环取余得到0的个数。很明显时间复杂度为O(n)，提交之后由于超时通不过。
 ``` python
 class Solution1:

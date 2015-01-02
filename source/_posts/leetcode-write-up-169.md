@@ -11,6 +11,7 @@ Given an array of size n, find the majority element. The majority element is the
 
 这个问题有一个专门的算法来解决 **Moore voting algorithm**, 看了之后感觉神清气爽。具体算法细节和数学证明请自行google。
 先来最经典的解决方案：
+<!-- more -->
 ``` python
 class Solution:
     # @param num, a list of integers
@@ -38,7 +39,7 @@ class Solution:
                 mark -= 1
         return elem
 ```
-<!-- more -->
+
 下面是LeetCode上给出的各种解决方案：
 Majority Element
 1. **Runtime: O(n2) — Brute force solution**: Check each element if it is the majority element.
