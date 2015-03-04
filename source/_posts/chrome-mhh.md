@@ -7,6 +7,8 @@ categories: 安全
 渗透测试小伙伴的专用修改http request headers chrome 插件用起来已经相当顺手了。
 github 源代码如下：https://github.com/chenyoufu/modify-http-headers
 
+百度网盘地址：http://pan.baidu.com/s/1bn8JEqz
+
 首先第一次运行会直接进入到options界面，这里可以为感兴趣的http 头部设置值，而且还可以添加自定义的http 头部。也可以删除默认的http 头部。
 可以填写host过滤，只对自己填写的host生效。如果不填写，那么对所有的请求都会生效。
 
