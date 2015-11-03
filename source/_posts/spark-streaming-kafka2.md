@@ -15,6 +15,7 @@ http://spark.apache.org/docs/latest/streaming-kafka-integration.html
 2. spark streaming取出后的数据存储到 mongodb 集群中。
 
 代码使用的是基于python的API：
+<!-- more -->
 
 ```python
 

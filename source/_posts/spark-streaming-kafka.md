@@ -12,6 +12,8 @@ categories: 大数据分析
 
 2. spark sql 操作结果 存储到 mongodb 集群中。
 
+<!-- more -->
+
 使用的是基于python的API，示例代码如下：
 
 ```python

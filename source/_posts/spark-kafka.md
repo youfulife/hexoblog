@@ -13,9 +13,11 @@ spark集群是192.168.10.37/38/39
 host.name=192.168.10.81
 zookeeper.connect=192.168.10.81:2181
 ```
+<!-- more -->
+
 启动zookeeper：
 ```
-[root@81 kafka_2.10-0.8.2.1]# bin/zookeeper-server-start.sh config/zookeeper.prorties 
+[root@81 kafka_2.10-0.8.2.1]# bin/zookeeper-server-start.sh config/zookeeper.prorties
 ```
 启动kafka：
 ```

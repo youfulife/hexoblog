@@ -19,6 +19,8 @@ export HADOOP_CONF_DIR=$HADOOP_HOME/etc/hadoop
 export SPARK_MASTER_IP=master
 export SPARK_LOCAL_DIRS=/root/spark-1.4.0-bin-hadoop2.6
 ```
+<!-- more -->
+
 ### **分发到所有的slave机器上**
 <!-- more -->
 ``` bash
