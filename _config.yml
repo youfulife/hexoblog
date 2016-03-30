@@ -62,4 +62,4 @@ deploy:
   type: git
   repo:
     github: git@github.com:chenyoufu/chenyoufu.github.io.git,master
-    gitcafe: git@gitcafe.com:chenyoufu/chenyoufu.git,gitcafe-pages
+    coding: git@git.coding.net:youfu/youfuNotes.git,coding-pages
