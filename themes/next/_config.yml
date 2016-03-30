@@ -3,10 +3,10 @@
 # ---------------------------------------------------------------
 
 # Place your favicon.ico to /source directory.
-favicon: http://7teb9r.com1.z0.glb.clouddn.com/blueoverflow.ico
+favicon: /favicon.ico
 
 # Set default keywords (Use a comma to separate)
-keywords: "hack, security, exploit"
+keywords: "python, elk"
 
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
@@ -27,11 +27,12 @@ rss:
 # Remove leading slashes ( "/archives" -> "archives" )
 menu:
   home: /
-  #categories: /categories
-  #about: /about
+  categories: /categories
+#about: /about
   archives: /archives
   tags: /tags
-  #commonweal: /404.html
+#commonweal: /404.html
+
 
 
 # Enable/Disable menu icons.
@@ -57,24 +58,15 @@ menu_icons:
 # ---------------------------------------------------------------
 
 # Schemes
-scheme: Mist
-
+#scheme: Muse
+#scheme: Mist
+scheme: Pisces
 
 
 
 # ---------------------------------------------------------------
 # Sidebar Settings
 # ---------------------------------------------------------------
-
-# Sidebar, available value:
-#  - post    expand on posts automatically. Default.
-#  - always  expand for all pages automatically
-#  - hide    expand only when click on the sidebar toggle icon.
-#  - remove  Totally remove sidebar including sidebar toggle icon.
-sidebar: post
-#sidebar: always
-#sidebar: hide
-#sidebar: remove
 
 
 # Social links
@@ -87,18 +79,15 @@ social_icons:
   enable: true
   # Icon Mappings
   GitHub: github
-  Twitter: twitter
+  # Twitter: twitter
   Weibo: weibo
 
 
 # Sidebar Avatar
-#avatar:
-
-
-# Social links
-# social:
-  #GitHub:
-  #Others:
+# in theme directory(source/images): /images/avatar.jpg
+# in site  directory(source/uploads): /uploads/avatar.jpg
+# default : /images/default_avatar.jpg
+#apvatar:
 
 
 # TOC in the Sidebar
@@ -115,6 +104,20 @@ toc:
 #creative_commons: by-nc-sa
 #creative_commons:
 
+sidebar:
+  # Sidebar Position, available value: left | right
+  position: left
+  #position: right
+
+  # Sidebar Display, available value:
+  #  - post    expand on posts automatically. Default.
+  #  - always  expand for all pages automatically
+  #  - hide    expand only when click on the sidebar toggle icon.
+  #  - remove  Totally remove sidebar including sidebar toggle icon.
+  #display: post
+  display: always
+  #display: hide
+  #display: remove
 
 
 
@@ -171,8 +174,15 @@ mathjax:
 # Disqus
 #disqus_shortname:
 
+# Baidu Share
+# Available value:
+#    button | slide
+#baidushare:
+##  type: button
+
 # Share
 #jiathis:
+#add_this_id:
 
 # Share
 #duoshuo_share: true
@@ -185,15 +195,45 @@ mathjax:
 # Google Analytics
 #google_analytics:
 
+# CNZZ count
+#cnzz_siteid:
+
 
 # Make duoshuo show UA
 # user_id must NOT be null when admin_enable is true!
 # you can visit http://dev.duoshuo.com get duoshuo user id.
 duoshuo_info:
   ua_enable: true
-  admin_enable: true
+  admin_enable: false
   user_id: 0
-  admin_nickname: youfuxyz
+  #admin_nickname: ROOT
+
+
+# Facebook SDK Support.
+# https://github.com/iissnan/hexo-theme-next/pull/410
+facebook_sdk:
+  enable: false
+  app_id:       #<app_id>
+  fb_admin:     #<user_id>
+  like_button:  #true
+  webmaster:    #true
+
+
+# Show number of visitors to each article.
+# You can visit https://leancloud.cn get AppID and AppKey.
+leancloud_visitors:
+  enable: false
+  app_id: #<app_id>
+  app_key: #<app_key>
+
+
+# Tencent analytics ID
+# tencent_analytics:
+
+# Enable baidu push so that the blog will push the url to baidu automatically which is very helpful for SEO
+baidu_push: false
+
+
 
 #! ---------------------------------------------------------------
 #! DO NOT EDIT THE FOLLOWING SETTINGS
@@ -213,4 +253,4 @@ js: js
 images: images
 
 # Theme version
-version: 0.4.5.2
+version: 0.5.0

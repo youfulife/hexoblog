@@ -1,5 +1,5 @@
 <div class="site-meta {% if theme.custom_logo.enabled %}custom-logo{% endif %}">
-  {% if theme.custom_logo.image and not theme.scheme %}
+  {% if theme.custom_logo.image and theme.scheme === 'Muse' %}
     <div class="site-meta-headline">
       <a>
         <img class="custom-logo-image" src="{{ theme.custom_logo.image }}"
@@ -27,10 +27,10 @@
 </div>
 
 <nav class="site-nav">
-  {% set hasSearch = theme.swiftype_key || theme.tinysou_Key %}
+  {% set hasSearch = theme.swiftype_key || theme.tinysou_Key || config.search %}
 
   {% if theme.menu %}
-    <ul id="menu" class="menu {{ hasSearch and 'menu-left' }}">
+    <ul id="menu" class="menu">
       {% for name, path in theme.menu %}
         {% set itemName = name.toLowerCase() %}
         <li class="menu-item menu-item-{{ itemName }}">
@@ -43,10 +43,13 @@
         </li>
       {% endfor %}
 
-      {# Search icon for default scheme #}
-      {% if not theme.scheme and theme.swiftype_key %}
+      {% if hasSearch %}
         <li class="menu-item menu-item-search">
-          <a href="#" class="st-search-show-outputs">
+          {% if theme.swiftype_key %}
+            <a href="#" class="st-search-show-outputs">
+          {% elseif config.search %}
+            <a href="#" class="popup-trigger">
+          {% endif %}
             {% if theme.menu_icons.enable %}
               <i class="menu-item-icon fa fa-search fa-fw"></i> <br />
             {% endif %}
