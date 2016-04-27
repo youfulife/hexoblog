@@ -40,11 +40,11 @@ sudo make install
 
 ### 修改rsyslog的配置文件
 默认rsyslog的配置文件是/etc/rsyslog.conf 和 /etc/rsyslog.d 目录下的私人定制配置。
-不要轻易修改全局的rsyslog.conf, 在 /etc/rsyslog.d 目录下新建一个 foo.conf 文件，主要功能有三个：
+不要轻易修改全局的rsyslog.conf, 在 /etc/rsyslog.d 目录下新建一个 foo.conf 文件，主要功能有四个：
 1.配置udp和tcp输入支持，端口号都是514。
-2.增加一个自定义的json模版来输出自定义的格式。
+2.增加一个自定义的json模版来输出自定义的格式，msg:2:$表示从第二个字符开始，这样会将msg开头的空格去掉。
 3.配置输出到kafka集群。
-还差一个功能就是增加输出过滤，目前所有的log都会输出到kafka，显然不是最终想要的。
+4.过滤，只有通过udp和tcp模块进来的syslog才输出到kafka中。
 
 具体配置内容如下：
 
@@ -61,25 +61,20 @@ $WorkDirectory /var/spool/rsyslog
 
 template(name="jtpl"
          type="string"
-         string="{%msg:::jsonf%,%app-name:::jsonf:app_name%,%procid:::jsonf:pid%,%hostname:::jsonf%,%programname:::jsonf:pname%,%syslogfacility-text:::jsonf:facility%,%syslogseverity-text:::jsonf:severity%,%timereported:::date-rfc3339,jsonf%,%timegenerated:::date-rfc3339,jsonf%}\n"
+         string="{%msg:2:$:jsonf%,%app-name:::jsonf:app_name%,%procid:::jsonf:pid%,%hostname:::jsonf%,%programname:::jsonf:pname%,%syslogfacility-text:::jsonf:facility%,%syslogseverity-text:::jsonf:severity%,%timereported:::date-rfc3339,jsonf%,%timegenerated:::date-rfc3339,jsonf%}\n"
         )
 
 module(load="omkafka")
-action(type="omkafka"
-       topic="rsyslog"
-       broker="192.168.10.79"
-       partitions.auto="on"
-       template="jtpl"
-       confParam=["compression.codec=snappy",
-                  "socket.keepalive.enable=true"]
-      )
+if $inputname == "imudp" or $inputname == "imtcp" then {
+    action (type="omkafka" topic="rsyslog" broker="192.168.10.79" partitions.auto="on" template="jtpl" confParam=["compression.codec=snappy", "socket.keepalive.enable=true"])
+}
 ```
 具体配置相关的指令和语法直接官方文档就可以查看到。
 配置修改完成后需要运行service rsyslog restart重新启动rsyslog使得配置生效。
 
 ### 验证配置生效
 
-本地终端输入 logger "x" 命令发送一条log。查看本地的/var/log/syslog文件可以发现最终生成的log如下：
+远端终端输入 logger "x" 命令发送一条log。查看本地的/var/log/syslog文件可以发现最终生成的log如下：
 ```
 Apr 27 13:00:58 node-79 root: x
 ```
