@@ -1,6 +1,7 @@
 title: Ubuntu 虚拟机安装 vmware-tools
 date: 2015-09-06 21:59:59
 tags: linux
+categories: linux
 ---
 开启unity模式，和主机之间共享复制黏贴等，必须安装vmware-tools。
 
@@ -20,6 +21,6 @@ tags: linux
 现在已经安装好了，但是现在还是没有用的，因为没有配置。
 运行配置脚本，对vmware-tools的功能进行配置，一般用默认选项就可以了。
 ```
-    /usr/bin/vmware-config-tools.pl 
+    /usr/bin/vmware-config-tools.pl
 ```
 配置完成后重启虚拟机即可，现在unity的功能已经可以用了，和主机之间剪切板也可以共享了。

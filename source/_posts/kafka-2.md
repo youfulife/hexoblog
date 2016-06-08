@@ -1,13 +1,13 @@
 title: Kafka 环境搭建(二)
 date: 2015-07-22 14:20:55
-tags: 大数据
+tags: kafka
 categories: 大数据分析
 ---
 在一台物理机上搭建一个3个节点的小Kafka 集群。
 
 首先将上次配置好的server.properties 复制两份，作为每个node的配置文件。
 ``` bash
-> cp config/server.properties config/server-1.properties 
+> cp config/server.properties config/server-1.properties
 > cp config/server.properties config/server-2.properties
 ```
 
@@ -17,7 +17,7 @@ config/server-1.properties:
     broker.id=1
     port=9093
     log.dir=/tmp/kafka-logs-1
- 
+
 config/server-2.properties:
     broker.id=2
     port=9094
@@ -80,7 +80,7 @@ ps -elf |grep server-1.properties
 
 关掉node1
 ``` bash
-> kill -9  16284 
+> kill -9  16284
 ```
 查看当前的配置变化
 ``` bash
@@ -123,6 +123,3 @@ lll**
 
 
 同一台机器上的多个node集群搭建完毕。
-
-
-

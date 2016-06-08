@@ -1,6 +1,7 @@
 title: 基于fabric的集群自动部署
 date: 2016-03-30 14:21:32
 tags: python, elk
+categories: 大数据分析
 ---
 
 最近基于fabric实现了一个大数据分析组件的多节点自动部署项目hunter。

@@ -1,7 +1,7 @@
 ﻿title: 出墙术
 date: 2015-03-30 10:10:01
 tags: vpn
-categories: vpn
+categories: 生活
 ---
 
 ![](http://7sbqk1.com1.z0.glb.clouddn.com/google.jpg)
@@ -53,10 +53,10 @@ sysctl -p
 ```
 通过ifconfig 发现没有了inet6的相关信息。
 ```
-cat  /proc/sys/net/ipv6/conf/all/disable_ipv6 
+cat  /proc/sys/net/ipv6/conf/all/disable_ipv6
 ```
 发现 内核中的值也是1了。
- 
+
 windows系统下可以下一个putty 工具包，里面有一个plink.exe的程序，在cmd中进入到putty工具包目录下运行下面命令：
 ```
 plink -N -D 8888 user@romote-ip

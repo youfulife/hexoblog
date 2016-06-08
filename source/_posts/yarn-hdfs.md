@@ -1,6 +1,6 @@
 title: yarn hdfs 环境搭建
 date: 2015-07-22 14:28:58
-tags: 大数据
+tags: spark
 categories: 大数据分析
 ---
 
@@ -216,7 +216,7 @@ scp -r ~/hadoop-2.6.0 root@slave2:/root/
 ```
 cd /root/hadoop-2.6.0     #进入hadoop目录
 bin/hadoop namenode -format     #第一次运行之前，首先格式化namenode，后续再启动就不要格式化namenode了
-sbin/start-dfs.sh               #启动dfs 
+sbin/start-dfs.sh               #启动dfs
 sbin/start-yarn.sh              #启动yarn
 ```
 
@@ -252,7 +252,7 @@ systemctl disable firewalld.service
 
 ### **测试HDFS**
 
-hdfs创建文件： 
+hdfs创建文件：
 ```
 bin/hdfs dfs -mkdir /test-hdfs
 ```
@@ -297,4 +297,3 @@ Starting Job
 15/07/22 11:04:25 INFO mapreduce.Job:  map 100% reduce 100%
 15/07/22 11:04:26 INFO mapreduce.Job: Job job_1436319535233_0004 completed successfully
 ```
-

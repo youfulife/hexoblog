@@ -1,6 +1,6 @@
 title: Spark Yarn 整合
 date: 2015-07-22 14:36:03
-tags: 大数据
+tags: spark
 categories: 大数据分析
 ---
 本文档接上一篇 《[yarn hdfs 环境搭建](http://youfu.xyz/2015/07/22/yarn-hdfs/)》

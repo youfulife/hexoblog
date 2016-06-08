@@ -1,6 +1,6 @@
 title: spark streaming kafka 整合测试
 date: 2015-07-22 14:43:08
-tags: 大数据
+tags: spark
 categories: 大数据分析
 ---
 运行环境：

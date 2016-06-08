@@ -1,6 +1,6 @@
 title: spark streaming sql kafka mongodb 整合(二)
 date: 2015-10-14 14:05:41
-tags: 大数据
+tags: spark
 categories: 大数据分析
 ---
 

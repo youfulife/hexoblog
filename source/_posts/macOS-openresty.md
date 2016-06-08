@@ -1,7 +1,7 @@
 title: Mac下安装openresty
 date: 2016-01-05 11:32:45
 tags: openresty
-categories: linux
+categories: 软件安装
 ---
 
 最新Mac OSX 10.11.1 下安装 openresty 有一点小小的麻烦，记录一下：

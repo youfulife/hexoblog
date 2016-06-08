@@ -1,6 +1,6 @@
 title: Kafka 环境搭建 (一)
 date: 2015-07-22 14:12:58
-tags: 大数据
+tags: kafka
 categories: 大数据分析
 ---
 下列搭建流程目前只在单台服务器上测试通过。
@@ -21,7 +21,7 @@ bin/zookeeper-server-start.sh config/zookeeper.properties
 ```
 ### 启动kafka server
 首先修改server.properties配置文件，将host.name 绑定到localhost，否则本地测试会报错。
-``` 
+```
 host.name=localhost
 ```
 启动server：
@@ -107,7 +107,7 @@ OS:           Linux 2.6.32-358.el6.x86_64 amd64
 ### 下载Kafka源代码
 ``` bash
 wget http://apache.fayea.com/kafka/0.8.2.1/kafka-0.8.2.1-src.tgz
-tar -xzvf kafka-0.8.2.1-src.tgz 
+tar -xzvf kafka-0.8.2.1-src.tgz
 cd kafka-0.8.2.1-src
 ```
 ### 下载gradle wrapper
@@ -126,6 +126,4 @@ cd kafka-0.8.2.1-src
 
 之后的kafka环境搭建和二进制方式搭建一样。
 
-参考: http://kafka.apache.org/documentation.html#quickstart 
-
-
+参考: http://kafka.apache.org/documentation.html#quickstart

@@ -1,6 +1,7 @@
 title: nginx 反向代理kopf和kibana4
 date: 2016-02-01 16:40:53
 tags: elk
+categories: 大数据分析
 ---
 
 在公网通过nginx 反向代理 来访问配置在内网的es集群中的es 插件kopf，head以及kibana，marvel。

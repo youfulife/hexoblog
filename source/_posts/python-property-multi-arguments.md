@@ -1,6 +1,6 @@
 title: python property setter 多参数
 date: 2015-12-23 17:18:31
-tags: [python, property]
+tags: python
 categories: python
 ---
 

@@ -1,7 +1,7 @@
 title: centOS6.4搭建xv6学习环境
 date: 2014-12-10 13:48:00
 tags: xv6
-categories: xv6
+categories: 操作系统
 ---
 前两天在centos 6.4服务器上折腾了一会儿xv6，xv6是MIT教学用的操作系统内核，总共6000多行代码，操作系统该有的基本都有了。
 跟着MIT给出的课程表一步一步来，折腾完后就可以看linux内核了。
