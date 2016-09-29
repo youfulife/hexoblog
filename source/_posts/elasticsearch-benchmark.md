@@ -1,7 +1,7 @@
 title: elasticsearch bulk 插入性能测试
 date: 2016-01-28 10:48:51
-tags: elk
-categories: 大数据分析
+tags: ELK
+categories: ELK
 ---
 
 近期对es 集群进行了一次bulk 插入的性能测试，发现在bulk条数比较小的时候，es写入性能挺低的。
