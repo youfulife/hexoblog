@@ -1,7 +1,7 @@
 title: rsyslog存储json日志到kafka
 date: 2016-04-27 10:56:01
 tags: [rsyslog, kafka]
-categories: 大数据分析
+categories: 编程
 ---
 
 最近的数据分析平台需要添加syslog的分析功能，目标是通过分析syslog和网络的原始数据报文来做一个智能化的服务或设备的故障定位。

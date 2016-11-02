@@ -1,7 +1,7 @@
 ﻿title: 多核下高性能编程
 date: 2014-12-26 16:14:52
 tags: performance
-categories: 多核高性能编程
+categories: 编程
 ---
 什么样的程序执行效率高？
 程序的数据和指令都在cache中，没有cache miss出现。

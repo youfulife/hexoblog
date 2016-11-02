@@ -4,12 +4,12 @@ date: 2014-12-06 17:53:38
 
 categories: linux
 
-tags: linux
+tags: 编程
 
 ---
 
 
-### **pstack** 
+### **pstack**
 
 如果知道运行的程序的名字，用pgrep name来得到进程的pid，然后运行：
 

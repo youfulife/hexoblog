@@ -1,7 +1,7 @@
 title: 2014大事记
 date: 2014-12-26 21:32:57
-tags: 
-categories: 纪录
+tags:
+categories: 生活
 ---
 
 1. 房子装修好了，即将搬进去住，终于要告别租房的日子了。

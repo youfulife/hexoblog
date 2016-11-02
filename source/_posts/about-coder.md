@@ -1,7 +1,7 @@
 title: 2016 年中随想
 date: 2016-07-11 21:02:25
 tags: linux
-categories: linux
+categories: 生活
 ---
 
 一年又过去了一半。

@@ -1,7 +1,7 @@
 title: go 小工程管理
 date: 2016-09-07 16:51:01
 tags: go
-categories: go
+categories: 编程
 ---
 由于go的包管理依赖于GOPATH环境变量，目前对GO的工程组织并没有摸的特别透，而且只做过一个简单的小项目。
 简单说一下go项目使用gitlab管理时的一些布局和部署方式，尽量做到clone下来后一键可以编译运行。

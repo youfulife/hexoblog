@@ -1,7 +1,7 @@
 title: elasticsearch ubuntu下最大文件描述符解决
 date: 2016-09-29 16:12:39
 tags: ELK
-categories: ELK
+categories: 编程
 ---
 
 ElasticSearch 文件描述符问题是一个比较容易出现的问题，尤其是data节点上，默认应该是1024，根本不够用。

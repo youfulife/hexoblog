@@ -1,7 +1,7 @@
 title: dpdk编译安装
 date: 2014-12-07 22:20:37
 tags: dpdk
-categories: dpdk
+categories: 编程
 ---
 dpdk版本：dpdk-1.7.0
 下载地址：http://www.dpdk.org/browse/dpdk/snapshot/dpdk-1.7.0.tar.gz

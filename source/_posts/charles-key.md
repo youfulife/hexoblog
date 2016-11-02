@@ -1,7 +1,7 @@
 title: charles 3.9.2 key
 date: 2014-12-26 16:46:38
-tags: 
-categories: 安全
+tags:
+categories: 编程
 ---
 强烈建议资金充足的个人开发者可以购买正版。
 官方主页：http://www.charlesproxy.com/

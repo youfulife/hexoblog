@@ -1,7 +1,7 @@
 ﻿title: 出墙术
 date: 2015-03-30 10:10:01
 tags: vpn
-categories: 生活
+categories: 编程
 ---
 
 ![](http://7sbqk1.com1.z0.glb.clouddn.com/google.jpg)

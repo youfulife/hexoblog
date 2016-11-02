@@ -1,7 +1,7 @@
 ﻿title: hack http headers
 date: 2014-12-17 16:30:20
 tags: chrome
-categories: 安全
+categories: 编程
 ---
 从零到chrome插件正式发布，历时一月有余。靠着不停的F5和F12，终于可以正常使用了，目前仅剩一下扫尾的美化和代码清理工作啦。
 

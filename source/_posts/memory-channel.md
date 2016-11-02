@@ -1,7 +1,7 @@
 ﻿title: memory channel
 date: 2014-12-14 10:21:00
 tags: dpdk
-categories: dpdk
+categories: 编程
 ---
 dpdk的示例程序中有个选项要求指定memory channel个数，之前没有怎么接触过这个东西，经过一番google后对这个概念有了基本的了解。
 

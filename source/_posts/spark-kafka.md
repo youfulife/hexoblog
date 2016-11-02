@@ -1,7 +1,7 @@
 title: spark streaming kafka 整合测试
 date: 2015-07-22 14:43:08
 tags: spark
-categories: 大数据分析
+categories: 编程
 ---
 运行环境：
 kafka 和zookeeper 运行在192.168.10.81

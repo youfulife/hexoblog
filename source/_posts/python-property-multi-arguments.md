@@ -1,7 +1,7 @@
 title: python property setter 多参数
 date: 2015-12-23 17:18:31
 tags: python
-categories: python
+categories: 编程
 ---
 
 python property的好处就不多说了，从[廖雪峰博客](http://www.liaoxuefeng.com/wiki/001374738125095c955c1e6d8bb493182103fac9270762a000/001386820062641f3bcc60a4b164f8d91df476445697b9e000)中摘抄过来一段：

@@ -1,7 +1,7 @@
 ﻿title: chrome 修改http头部扩展
 date: 2015-01-05 16:59:25
 tags: chrome
-categories: 安全
+categories: 编程
 ---
 
 渗透测试小伙伴的专用修改http request headers chrome 插件用起来已经相当顺手了。

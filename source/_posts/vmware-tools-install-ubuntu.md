@@ -1,7 +1,7 @@
 title: Ubuntu 虚拟机安装 vmware-tools
 date: 2015-09-06 21:59:59
 tags: linux
-categories: linux
+categories: 编程
 ---
 开启unity模式，和主机之间共享复制黏贴等，必须安装vmware-tools。
 

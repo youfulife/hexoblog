@@ -1,7 +1,7 @@
 title: 十个值得关注的c开源项目
 date: 2014-12-14 09:50:57
 tags: linux
-categories: linux
+categories: 编程
 ---
 
 这个文章是在知乎看到别人推荐，觉得说的挺不错摘抄过来的。

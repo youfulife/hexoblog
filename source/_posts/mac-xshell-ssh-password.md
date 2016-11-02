@@ -1,6 +1,7 @@
 title: Mac下iTerm2 代替 Xshell
 date: 2016-03-24 13:34:52
 tags: mac
+categories: 编程
 ---
 
 mac 下通过配置 iTerm2 让它具有xshell免密码登陆的功能。iTerm2 本身并没有提供这个功能，不过

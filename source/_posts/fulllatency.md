@@ -1,6 +1,7 @@
 title: 性能优化Latency
 date: 2016-06-16 15:45:26
 tags: performance
+categories: 编程
 ---
 
 一图胜千言

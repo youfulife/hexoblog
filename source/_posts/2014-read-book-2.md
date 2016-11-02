@@ -1,7 +1,7 @@
 ﻿title: 2014读过的技术书
 date: 2014-12-26 20:37:27
 tags: book
-categories: 阅读
+categories: 生活
 ---
 
 2014没有读什么内核书籍，主要是web安全方面的，当然这几本书也没有完全读完，除了MacTalk完全读完，其余的都读了一多半吧。2014年Mactalk对我的影响很大。订阅了一件Mactalk卫衣。

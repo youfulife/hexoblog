@@ -1,7 +1,7 @@
 title: 源代码统计cloc
 date: 2015-04-07 10:45:33
 tags: linux
-categories: linux
+categories: 编程
 ---
 ![](http://7sbqk1.com1.z0.glb.clouddn.com/source-code_blog.jpg)
 最近发现一款非常不错的源代码统计工具cloc，简单好用。
@@ -66,6 +66,3 @@ SUM:                            68           7394           3016          24554
 sourceforge有时候会被墙，下载了下来传到百度网盘上了：
 windows: http://pan.baidu.com/s/1c0AjSrQ
 linux：http://pan.baidu.com/s/1pJLYK0z
-
-
-

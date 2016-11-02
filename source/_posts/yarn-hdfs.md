@@ -1,7 +1,7 @@
 title: yarn hdfs 环境搭建
 date: 2015-07-22 14:28:58
 tags: spark
-categories: 大数据分析
+categories: 编程
 ---
 
 ## **环境准备**

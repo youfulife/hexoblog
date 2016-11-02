@@ -1,7 +1,7 @@
 ﻿title: libpcap 初始化
 date: 2014-12-19 22:16:52
 tags: libpcap
-categories: libpcap
+categories: 编程
 ---
 libpcap 普通抓包主要调用两个函数:
 ``` c
@@ -16,7 +16,7 @@ int pcap_loop(pcap_t *p, int cnt, pcap_handler callback, u_char *user);
     pcap.c : 399行              pcap_create
     pcap.c: 576行               pcap_set_snaplen / promisc / timeout
     pcap.c: 716行               pcap_activate
-    
+
 首先分析pcap_create()函数的实现，这个函数主要功能是分配了pcap_t，pcap_linux等数据结构内存，初始化了相关的一些回调函数。
 <!-- more -->
 根据不同的#define, 有很多不同的pcap_create函数原型，这里仅仅关注linux下普通网络接口设备。
@@ -40,7 +40,7 @@ pcap_create_interface主要完成了三个事情：
 
 pcap_create函数到这里就结束了，返回了一个pcap_t *p的指针。
 如果没有任何问题的话，就根据用户传递进来的参数设置snaplen(捉包的最大包长)，promisic(混杂模式)，timeout(超时)。
- 
+
 基本设置完成后调用pcap_activate函数，这个函数主要是初始化各种方法。
 
     status = p->activate_op(p);
@@ -70,6 +70,6 @@ activate_mmap(handle, &status)
 ``` c
 handle->buffer = malloc(handle->bufsize + handle->offset);
 ```
-	
+
 pcap_t *pcap_open_live()函数的整个流程就是这样, 最终返回一个pcap_t类型的指针，这个里面包涵了libpcap抓包需要的所有信息。
 下一步就可以调用pcap_loop进行数据包的抓取了。

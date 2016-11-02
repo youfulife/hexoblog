@@ -1,7 +1,7 @@
 title: spark streaming sql kafka mongodb 整合(一)
 date: 2015-10-14 14:41:00
 tags: spark
-categories: 大数据分析
+categories: 编程
 ---
 前段时间看了一下spark入门，因为项目需要从kafka中实时取数据，然后经过spark的处理，把处理后的数据存储到mongodb中。
 

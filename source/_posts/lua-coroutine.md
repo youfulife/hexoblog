@@ -1,7 +1,7 @@
 ﻿title: lua coroutine 学习笔记
 date: 2015-04-25 15:02:08
 tags: lua
-categories: lua
+categories: 编程
 ---
 
 
@@ -119,5 +119,5 @@ true 34 43            // 第二次resume返回值
 true 5 12             // 第三次resume返回值
 > return coroutine.resume(co, 3, 5, 7)
 false cannot resume dead coroutine
-> 
+>
 ```

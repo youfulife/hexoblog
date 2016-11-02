@@ -1,7 +1,7 @@
 ﻿title: dpdk prefetch 介绍
 date: 2015-01-12 12:54:48
 tags: [performance, dpdk]
-categories: dpdk
+categories: 编程
 ---
 
 prefetchXX指令的左右是提前将memory中的数据或指令放到Cache中，这样cpu下次用到这个数据的时候直接用就行了，不会出现cache miss。

@@ -1,7 +1,7 @@
 title: mongodb python 和 nodejs 基于时间查询
 date: 2015-12-22 14:04:18
 tags: mongodb
-categories:  大数据分析
+categories:  编程
 ---
 
 mongodb 使用过程中经常遇到查询或者聚合某一段时间内的数据。

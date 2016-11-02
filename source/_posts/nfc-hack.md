@@ -1,7 +1,7 @@
 ﻿title: nfc hack 初探
 date: 2014-12-26 15:55:34
 tags: nfc
-categories: 安全
+categories: 编程
 ---
 前端时间研究了一把Mifare Classic tag的读取，复制，破解。
 之前没有接触过RFID的东西，这两天的主要补充了一下基础知识，看了一些论坛上的破解文章，对RFID tag的通信流程，破解方法有了一定的认识，有点意思。
@@ -25,7 +25,7 @@ RFID破解神器Proxmark3，土豪玩的玩意儿，价格大概2000RMB。
     (3)可以窃听读卡器和tag之间的通信
     (4)只要有个USB电源就可以单独工作，不需要PC机器
     (5) 开源，可以买回来自己DIY
-    
+
 所以说有钱什么事都好办。
 官网：http://proxmark.org/
 官方购买网站：http://www.proxmark3.com/

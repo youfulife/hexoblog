@@ -1,11 +1,9 @@
 ﻿title: dpdk多线程管理控制机制
 date: 2014-12-30 15:11:31
 tags: dpdk
-categories: dpdk
+categories: 编程
 ---
 
-
----
 
 ![EAL Initialization in a Linux Application Environment](http://7sbqk1.com1.z0.glb.clouddn.com/youfu_blog_linuxapp_launch.png)
 
@@ -174,7 +172,3 @@ eal_thread_loop(__attribute__((unused)) void *arg)
 ```
 相关函数的具体解释参考API文档：
 http://www.dpdk.org/doc/api/rte__launch_8h.html
-
-
-
-

@@ -1,7 +1,7 @@
 title: 吉他谱制作小工具
 date: 2016-10-31 16:54:51
 tags: 吉他谱
-categories: 吉他谱
+categories: 吉他
 ---
 
 ![因为爱情Demo](http://ofphfz209.bkt.clouddn.com/ywaq.png)

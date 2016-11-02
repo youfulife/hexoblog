@@ -1,7 +1,7 @@
 ﻿title: pycharm中配置github
 date: 2014-12-26 16:30:24
 tags: python
-categories: python
+categories: 编程
 ---
 pycharm 作为python的开发利器，谁用谁知道，没有最好只有更好。
 pycharm支持各种版本管理工具，支持github。

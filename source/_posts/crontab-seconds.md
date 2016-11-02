@@ -1,7 +1,7 @@
 title: crontab 秒级定时
 date: 2015-12-22 16:29:11
 tags: linux
-categories: linux
+categories: 编程
 ---
 
 crontab 默认定时最小只能到1分钟，如果想要15s定时执行一次脚本怎么办？

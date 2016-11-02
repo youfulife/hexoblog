@@ -1,7 +1,7 @@
 ﻿title: dpdk 移植到开源软件
 date: 2015-01-26 14:54:53
 tags: dpdk
-categories: dpdk
+categories: 编程
 ---
 dpdk 自己提供了一套Makefile的写法，当需要使用dpdk来开发自己的应用程序或库时，可以按照dpdk makefile的固定套路来编写自己的Makefile。
 官方文档描述的非常清晰。
@@ -32,7 +32,7 @@ http://industriousone.com/topic/how-use-whole-archive-gcc
 ##**开源软件Makefile修改步骤：**##
 
 将dpdk编译生成的静态库全部包含进来
-``` 
+```
 ifeq ($(strip $(DPDK_ENABLE)), yes)
     LIBDPDK =  $(ROOT_DIR)/dpdk/build/lib
     LIBS += $(LIBDPDK)/libethdev.a
@@ -63,7 +63,7 @@ ifeq ($(strip $(DPDK_ENABLE)), yes)
     LIBS += $(LIBDPDK)/librte_ip_frag.a
     LIBS += $(LIBDPDK)/librte_cmdline.a
     LIBS += $(LIBDPDK)/librte_acl.a
- 
+
 else
 endif
 ```

@@ -1,7 +1,7 @@
 ﻿title: 网络性能benchmark
 date: 2014-12-13 20:07:03
 tags: driver
-categories: dpdk
+categories: 编程
 ---
 ##RFC 2544
 ###9.1 Frame sizes to be used on Ethernet
@@ -40,7 +40,7 @@ interface types and frame sizes:
 Preamble 64 bits
 Frame 8 x N bits
 Gap 96 bits
-###Note: 
+###Note:
 Ethernet’s maximum frame rates are subject to variances due to
 clock slop. The listed rates are theoretical maximums, and actual
 tests should account for a +/- 100 ppm tolerance.

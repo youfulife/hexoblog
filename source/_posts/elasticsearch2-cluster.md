@@ -1,7 +1,7 @@
 title: Elastic Search 2.0 集群搭建
 date: 2015-11-03 11:47:54
 tags: ELK
-categories: ELK
+categories: 编程
 ---
 
 Elastic Search 2.0 和 1.x 是不兼容的，其中很多的默认配置都修改了，直接下载下来运行只能
