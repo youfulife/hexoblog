@@ -1,7 +1,7 @@
 ﻿title: 南方的女王
 date: 2014-12-09 22:55:42
 tags: 吉他谱
-categories: 吉他谱
+categories: 吉他
 ---
 
 

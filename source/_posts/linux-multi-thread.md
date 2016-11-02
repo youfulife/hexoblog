@@ -1,10 +1,7 @@
 ﻿title: linux查看多线程运行状态
-
 date: 2014-12-06 17:53:38
-
-categories: linux
-
-tags: 编程
+categories: 编程
+tags: linux
 
 ---
 
