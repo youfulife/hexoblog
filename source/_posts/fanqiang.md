@@ -6,6 +6,8 @@ categories: 编程
 
 ![](http://7sbqk1.com1.z0.glb.clouddn.com/google.jpg)
 
+
+
 作为一个程序员，翻墙术是一个无法避免的技能，就跟会写代码一样重要。
 过去的几年尝试了一些翻墙术，主要有linode自己搭建vps，goagent，GreenVpn等。
 vps主要是国外的，当时是日本的机房，延迟大概100多ms，挺慢的，而且不便宜。
@@ -62,3 +64,5 @@ windows系统下可以下一个putty 工具包，里面有一个plink.exe的程�
 plink -N -D 8888 user@romote-ip
 ```
 从此之后告别goagent了。
+
+更新：自从发现shadowsocks之后，发现其他各种翻墙的方式全都弱爆了。
