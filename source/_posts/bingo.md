@@ -4,4 +4,4 @@ tags: 生活
 categories: 生活
 ---
 
-B~i~n~g~o, B~i~n~g~o, B~i~n~g~o!
+Exploiting!
