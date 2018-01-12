@@ -14,7 +14,7 @@ theme: next
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://youfu.xyz
+url: http://dig404.com
 root: /
 permalink: :year/:month/:day/:title/
 
