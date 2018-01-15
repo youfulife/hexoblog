@@ -54,6 +54,7 @@ creative_commons: by-nc-sa
 
 plugins:
 - hexo-generator-sitemap
+- hexo-deployer-git
 
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
